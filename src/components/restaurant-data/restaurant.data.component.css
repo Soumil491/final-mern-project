@@ -1,0 +1,25 @@
+.res-data, .login-contents, .register-page, .form-query{
+    padding: 3%;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: rgb(110, 50, 50);
+}
+
+.register-page {
+    margin-top: 20px;
+    padding-top: 0px;
+    width: 35%;
+}
+
+.form-query {
+    margin-bottom: 20px;
+    width: 35%
+}
+
+.link-item {
+    color: bisque;
+}
+
+.link-item:hover {
+    color: rgb(209, 164, 164);
+}

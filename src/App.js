@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+import RegisterPage from './pages/register-page/register.page.jsx';
+import LoginPage from './pages/login-page/login.page.jsx';
+import HomePage from './pages/home-page/home.page.component.jsx';
+import RestaurantsList from './components/restaurant-list/restaurants.list.component.jsx';
+import RestaurantData from './components/restaurant-data/restaurant.data.component.jsx';
+import Logout from './components/logout/logout.component.jsx';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <div className="container">
+                    <br /><br />
+                    <Link to='/'className="brand-link">
+                        <span className="brand h1">Restaurant Finder</span>
+                        <Logout />
+                    </Link>
+                    
+                    <Route path='/' exact component={HomePage} />
+                    <Route path='/restaurant' exact component={RestaurantData} />
+                    <Route path="/discovery" exact component={RestaurantsList} />
+                    <Route path="/register" exact component={RegisterPage} />
+                    <Route path="/login" exact component={LoginPage} />
+                </div>
+
+            </div>
+        </Router>
+
+    );
 }
 
 export default App;

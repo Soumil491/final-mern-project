@@ -1,0 +1,33 @@
+.brand {
+    color: bisque;
+    background-color: rgb(110, 50, 50);
+    width: fit-content;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.brand-link {
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: rgb(209, 164, 164);
+}
+
+.contents {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-color: rgb(110, 50, 50);
+}
+
+#logout {
+    margin-left: 90%;
+    margin-top: -10%;
+}

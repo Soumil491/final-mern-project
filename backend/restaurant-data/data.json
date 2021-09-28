@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Ras Resort",
+        "location": "Mumbai",
+        "priceForTwo": 400,
+        "ratingOutOf5": 3,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Lodi - The Garden Restaurant",
+        "location": "Delhi",
+        "priceForTwo": 750,
+        "ratingOutOf5": 5,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "Parallax Restaurant",
+        "location": "Hyderabad",
+        "priceForTwo": 500,
+        "ratingOutOf5": 2,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Peter Cat",
+        "location": "Kolkata",
+        "priceForTwo": 750,
+        "ratingOutOf5": 5,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "Aamantran Restaurant",
+        "location": "Kochi",
+        "priceForTwo": 350,
+        "ratingOutOf5": 4,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Ras Resort",
+        "location": "Mumbai",
+        "priceForTwo": 400,
+        "ratingOutOf5": 3,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Amethyst",
+        "location": "Chennai",
+        "priceForTwo": 700,
+        "ratingOutOf5": 5,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Bawarchi",
+        "location": "Hyderabad",
+        "priceForTwo": 500,
+        "ratingOutOf5": 3,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "Bharawan da Dhaba",
+        "location": "Amritsar",
+        "priceForTwo": 600,
+        "ratingOutOf5": 4,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Black Sheep Bistro",
+        "location": "Goa",
+        "priceForTwo": 650,
+        "ratingOutOf5": 3,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Bukhara",
+        "location": "Delhi",
+        "priceForTwo": 800,
+        "ratingOutOf5": 3,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "Cafe Palladio",
+        "location": "Jaipur",
+        "priceForTwo": 550,
+        "ratingOutOf5": 4,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Crystal Restaurant",
+        "location": "Amritsar",
+        "priceForTwo": 450,
+        "ratingOutOf5": 4,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "The Embassy",
+        "location": "Delhi",
+        "priceForTwo": 500,
+        "ratingOutOf5": 5,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "The Fatty Bao",
+        "location": "Bangalore",
+        "priceForTwo": 600,
+        "ratingOutOf5": 5,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "Ginger House",
+        "location": "Kochi",
+        "priceForTwo": 400,
+        "ratingOutOf5": 3,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Hanwant Mahal",
+        "location": "Jodhpur",
+        "priceForTwo": 500,
+        "ratingOutOf5": 4,
+        "vegOrNonveg": "veg"
+    },
+    {
+        "name": "Hotel Saravana Bhavan",
+        "location": "Chennai",
+        "priceForTwo": 450,
+        "ratingOutOf5": 3,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "Indigo",
+        "location": "Mumbai",
+        "priceForTwo": 800,
+        "ratingOutOf5": 5,
+        "vegOrNonveg": "non-veg"
+    },
+    {
+        "name": "Kewpie's",
+        "location": "Kolkata",
+        "priceForTwo": 600,
+        "ratingOutOf5": 4,
+        "vegOrNonveg": "non-veg"
+    }
+]
