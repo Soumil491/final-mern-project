@@ -55,7 +55,7 @@ restaurantApp.post('/register', async (req, res) => {
 
         const token = jwt.sign(
             { user_id: user.id, email },
-            process.env.TOKEN_KEY,
+            'thisIsJSONTokenKey',
             {
                 expiresIn: "2h"
             }
@@ -84,7 +84,7 @@ restaurantApp.post('/login', async (req, res) => {
 
             const token = jwt.sign(
                 { user_id: user.id, email },
-                process.env.TOKEN_KEY,
+                'thisIsJSONTokenKey',
                 {
                     expiresIn: '2h'
                 }
