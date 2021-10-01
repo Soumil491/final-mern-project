@@ -16,6 +16,7 @@ const RegisterPage = () => {
         e.preventDefault();
         axios.post('http://localhost:5000/register', User)
             .then(res => {
+                window.localStorage.clear();
                 window.localStorage.setItem('jwtToken', res.data);
                 history.push('/discovery');
             })

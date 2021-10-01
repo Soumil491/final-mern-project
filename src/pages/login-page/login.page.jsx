@@ -23,6 +23,7 @@ const LoginPage = () => {
                     if (incorrectLogin.classList.contains('d-none')) incorrectLogin.classList.remove('d-none');
                 }
                 else {
+                    window.localStorage.clear();
                     window.localStorage.setItem('jwtToken', res.data);
                     if (!(incorrectLogin.classList.contains('d-none'))) incorrectLogin.classList.add('d-none');
                     history.push('/discovery');
