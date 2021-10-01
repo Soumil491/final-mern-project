@@ -8,10 +8,11 @@ const Logout = () => {
     const handleLogout = () => {
         window.localStorage.clear();
         history.replace('/');
+        document.getElementById('logout').classList.add('d-none');
     }
 
     return (
-        <button id="logout" className="btn btn-danger"
+        <button id="logout" className="btn btn-danger d-none"
             onClick={handleLogout}>
             Logout
         </button>

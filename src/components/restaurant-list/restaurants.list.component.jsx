@@ -11,6 +11,8 @@ class RestaurantsList extends React.Component {
     render() {
         // eslint-disable-next-line
         const { fetching, data, onRequestData, error } = this.props;
+        
+        document.getElementById('logout').classList.remove('d-none');
 
         return (
             <div>
